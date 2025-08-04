@@ -1,4 +1,19 @@
-numpy==1.19.5
-pandas==1.2.1
-streamlit==1.16
-yfinance==0.1.63
+# Core app
+streamlit==1.32.2        # Latest stable Streamlit as of Aug 2025
+pandas>=2.2.1
+numpy>=1.26.4
+
+
+# Data sources
+yfinance>=0.2.37
+yahoo_fin>=0.8.9.1        # Latest working version as of Aug 2025
+
+# Math & finance
+scipy>=1.13.0
+py-vollib==1.0.1          # Fixed version, as you requested
+
+# Caching, progress bars (optional)
+tqdm>=4.66.4
+
+# Optional: suppress warnings or UI tweaks
+python-dotenv>=1.0.1
