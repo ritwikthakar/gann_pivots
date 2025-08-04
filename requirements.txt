@@ -9,11 +9,11 @@ yfinance>=0.2.37
 yahoo_fin>=0.8.9.1        # Latest working version as of Aug 2025
 
 # Math & finance
-scipy>=1.13.0
-py-vollib==1.0.1          # Fixed version, as you requested
+math
 
 # Caching, progress bars (optional)
 tqdm>=4.66.4
 
 # Optional: suppress warnings or UI tweaks
 python-dotenv>=1.0.1
+
